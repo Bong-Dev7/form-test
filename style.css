@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  background: linear-gradient(
+    109.5deg,
+    rgb(229, 233, 177) 11.2%,
+    rgb(151, 119, 87) 100.2%
+  );
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  min-height: 100lvh;
+}
+
+.patent {
+  font-size: 10px;
+  margin-left: 10px;
+}
+
+.container {
+  background-color: rgb(255, 255, 255, 0.5);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.7);
+  margin: 10px 10px;
+}
+
+input {
+  padding: 12px 20px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  background-color: rgba(255, 255, 255, 0.872);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+select {
+  padding: 12px 20px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  /* font: bolder; */
+  font-weight: 400;
+  background: rgba(255, 255, 255, 0.785);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+h2 {
+  margin: 0;
+}
+
+.rx-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rx-site {
+  margin-top: 20px;
+  color: rgb(63, 4, 63);
+}
+
+.submit {
+  background-color: black;
+  color: white;
+  width: 300px;
+  position: relative;
+  left: 25%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  /* display: flex;
+  justify-content: center; */
+}
+
+.submit:hover {
+  background-color: gray;
+  color: purple;
+  font-weight: 700;
+}
+
+.submit:active {
+  background-color: white;
+  color: black;
+  border: 2px solid aqua;
+}
+
+.sharp-building {
+  width: 150px;
+  position: absolute;
+  left: 60%;
+  top: 89%;
+  margin-top: 4px;
+  margin-bottom: 2px;
+}
+
+span {
+  /* font-weight: 700; */
+  font: bolder;
+}
